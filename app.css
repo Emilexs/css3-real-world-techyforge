@@ -72,3 +72,62 @@ h2,p{
   text-align: center;
   color: white;
 }
+/* Sticky Navigation Bar */
+.nav {
+  border: 1px solid white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  
+}
+.nav:scrolled {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Image Gallery */
+
+.image {
+  display: inline-block;
+  border: 1px solid white;
+  width: 150px;
+  margin: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 10px;
+}
+.image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+p{
+text-align: justify;
+text-transform: capitalize;
+}
+
+/*Animated pricing card*/
+.pricing{
+  background-color: rgb(80, 49, 49);
+  border: 2px solid white;
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+  text-transform: uppercase;
+}
+p{
+  color: white;
+}
+.pricing:hover{
+  transform: scale(1.05);
+  transition: all 0.2sec;
+  background: linear-gradient( purple,red );
+  box-shadow: 0px 4px 15px red (0,0,0,0.3);
+}
